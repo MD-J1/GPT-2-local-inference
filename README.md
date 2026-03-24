@@ -26,7 +26,7 @@ pip install torch transformers
 python A.py
 ```
 
-3. Modify `prompt` and `max_new_tokens` in the script to test different inputs and output lengths.
+3. Modify `prompt` and `max_new_tokens` in the script to test different inputs and output lengths[case-sensitive].
 
 ---
 
