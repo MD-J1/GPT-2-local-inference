@@ -11,6 +11,7 @@ This repository demonstrates running **GPT-2** using Hugging Face Transformers i
 * **Deterministic output:** The code sets a fixed random seed for reproducible results.
 * **Greedy decoding:** The model always picks the token with the highest probability (`do_sample=False`), avoiding random sampling or stochastic outputs.
 * **Customizable output length:** Users can adjust the `max_new_tokens` parameter in `A.py` to generate longer or shorter responses.
+* **Parameters Extractor** The code is loads thr GP2 model then extracts its parameters as raw as possible.
 
 ## Usage
 
