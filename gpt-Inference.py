@@ -10,13 +10,13 @@ model.eval()  # inference mode
 # fixed random seed for deterministic results
 torch.manual_seed(42)
 
-prompt = "Hi chat who is the current president of the US"
+prompt = "Hi Chat who is the Current president of the US"
 inputs = tokenizer(prompt, return_tensors="pt")
 
 # generate deterministic output
 generated = model.generate(
     **inputs,
-    max_new_tokens=67,
+    max_new_tokens=10,
     do_sample=False,   # greedy = always pick top token
 )
 
